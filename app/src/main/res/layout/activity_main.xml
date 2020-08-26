@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:orientation="horizontal"
+    tools:context=".Demo.controller.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:src="@drawable/ideass"
+        app:tint="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/textMaterial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/logo"
+        android:gravity="center_vertical"
+
+        android:layout_marginTop="@dimen/_80sdp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/material_design"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_84sdp"
+            android:layout_marginLeft="@dimen/_84sdp"
+            android:layout_marginEnd="@dimen/_84sdp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ui_kit_freebie"
+            android:textColor="@color/white"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingEnd="@dimen/_15sdp"
+            android:layout_marginStart="@dimen/_84sdp"
+            android:layout_marginLeft="@dimen/_84sdp"
+            android:layout_marginEnd="@dimen/_84sdp"
+            android:textSize="@dimen/_20sdp"
+            android:paddingLeft="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="@string/textbig"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_30sdp"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textMaterial"
+    android:layout_marginTop="@dimen/_120sdp"
+    android:weightSum="2">
+    <Button
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/Mix"
+        android:text="@string/sign_up"
+        android:padding="@dimen/_16sdp"
+        android:layout_margin="@dimen/_12sdp"
+        android:background="@drawable/login_button_rounded"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Mix"
+        android:text="@string/log_in"
+        android:padding="@dimen/_16sdp"
+        android:layout_margin="@dimen/_12sdp"
+        android:background="@drawable/login_button_rounded"/>
+</LinearLayout>
+</RelativeLayout>

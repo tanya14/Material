@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Material</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="log_in">LOG IN</string>
+    <string name="material_design">Material Design</string>
+    <string name="ui_kit_freebie">UI Kit Freebie</string>
+    <string name="textbig">lorem Iepsum is simply dummy text of printing and typecasting industry</string>
+    <string name="signUp">Sign Up</string>
+    <string name="menu">Menu</string>
+    <string name="signUpMsg">Material Design UI Kit</string>
+    <string name="UserName">UserName</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="alreadyAccount">Already have an account? Login</string>
+
+
+
+
+</resources>
